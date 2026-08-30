@@ -203,6 +203,9 @@
               = link_to @matrix.get_url(:matrix_market), {class: 'btn btn-outline-dark btn-sm'} do
                 Matrix Market
                 %span.fa.fa-download{'aria-hidden':'true'}
+              = link_to @matrix.get_url(:binsparse), {class: 'btn btn-outline-dark btn-sm'} do
+                Binsparse
+                %span.fa.fa-download{'aria-hidden':'true'}
           %tr
             %th Notes
             %td
@@ -215,4 +218,3 @@
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
   });
-

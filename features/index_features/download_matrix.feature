@@ -21,3 +21,8 @@ Scenario: Matrix Market Link
   Given there is a matrix with the group "HB" and the name "jagmesh7"
   When I go to the home page
   Then I should be able to download a "Matrix Market" file called "jagmesh7.tar.gz"
+
+Scenario: Binsparse Link
+  Given there is a matrix with the group "HB" and the name "jagmesh7"
+  When I go to the home page
+  Then I should be able to download a "Binsparse" file called "jagmesh7.bsp.h5"
