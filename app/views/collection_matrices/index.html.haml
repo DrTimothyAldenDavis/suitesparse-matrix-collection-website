@@ -4,11 +4,16 @@
 .alert.alert-info.alert-dismissible.about-alert
   %button.btn-close.about-close{type: "button", 'data-bs-dismiss': "alert", 'aria-label': "Close"}
     %span{:'aria-hidden' => "true"}
+
 ALERT: THE COLLECTION IS OFFLINE BECAUSE OF 100x HIGHER DOWNLOADS THAN NORMAL.
-The website is up but the matrix files are not accessible.
-IT WILL BE BACK UP WHEN THE ISSUE IS RESOLVED.  Please do not contact us to
-ask when it will be up; the answer will be the same as this alert box.  We do
-not yet have an estimate of when the collection will be back online.
+The website is up but the matrix files are not accessible.  THE PROBLEM IS
+EXCESSIVE DOWNLOADS FROM JOBS RUNNING ON AWS ITSELF, POUNDING THE DATA.  We
+have no estimate on when this will be resolved, but it will take some time
+(weeks perhaps?).  Please do not contact us to ask when it will be up; the
+answer will be the same as this alert box.  If you are running these AWS
+workloads, please revise them.  All interfaces we provide (Python, MATLAB, Java
+gui) download a matrix ONCE and then cache it locally.  Do the same or use
+these interfaces.
 
 .card.card-body.bg-light
   .row
