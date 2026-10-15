@@ -326,6 +326,9 @@ RSpec.describe CollectionMatrix, type: :model do
       # expect(@matrix.get_url(:matrix_market)).to eq("https://sparse.tamu.edu/MM/groupName_1/matrixName_1.tar.gz")
       expect(@matrix.get_url(:matrix_market)).to eq('https://suitesparse-collection-website.herokuapp.com/MM/groupName_1/matrixName_1.tar.gz')
     end
+    it 'should provide the correct Binsparse download URL' do
+      expect(@matrix.get_url(:binsparse)).to eq('https://suitesparse-collection-website.herokuapp.com/BSP/groupName_1/matrixName_1.bsp.h5')
+    end
     it 'should provide the correct SVD download URL' do
       # expect(@matrix.get_url(:svd)).to eq("https://sparse.tamu.edu/svd/groupName_1/matrixName_1_SVD.mat")
       expect(@matrix.get_url(:svd)).to eq('https://suitesparse-collection-website.herokuapp.com/svd/groupName_1/matrixName_1_SVD.mat')

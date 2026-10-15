@@ -19,10 +19,14 @@ class CollectionMatrix < ApplicationRecord
       "#{base_url}RB/#{group}/#{name}.tar.gz"
     when :matrix_market
       "#{base_url}MM/#{group}/#{name}.tar.gz"
+    when :binsparse
+      "#{base_url}BSP/#{group}/#{name}.bsp.h5"
     when :svd
       "#{base_url}svd/#{group}/#{name}_SVD.mat"
     else
-      raise ArgumentError, 'Unknown matrix file type - only :matlab, :rutherford_boeing, and :matrix_market allowed'
+      raise ArgumentError,
+            'Unknown matrix file type - only :matlab, :rutherford_boeing, ' \
+            ':matrix_market, :binsparse, and :svd allowed'
     end
   end
 
