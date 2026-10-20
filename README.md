@@ -95,11 +95,14 @@ cd suitesparse-matrix-collection-website
 gem install bundler                  # Dependency manager
 bundle config set without 'development test'
 bundle install                       # Download and install dependencies
+export SPARSE_FILES_BASE_URL=https://your-sparse-file-host.example
 bundle exec rails db:setup           # Generate and seed the database
 bundle exec rails server             # Start the Ruby on Rails server application
 ```
 
 Once the Rails server starts, you can navigate in a web browser to localhost:3000 to view the web application running locally.
+
+`SPARSE_FILES_BASE_URL` is required and controls the base URL for sparse file redirects. There is no default: the application fails to start if it is unset. A trailing slash is removed automatically. Image redirects continue to use their existing host.
 
 ## Test Suite
 
