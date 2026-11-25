@@ -1,10 +1,11 @@
 =provide(:title, "Index")
 =provide(:description, "SuiteSparse Matrix Collection Index")
 
-.about-alert
-  UPDATE (Nov 25, 2026): The collection is still offline but
-  I am attempting to bring it up in
-  another cloud service.  Stay tuned.
+.alert.alert-info.alert-dismissible.about-alert
+  %button.btn-close.about-close{type: "button", 'data-bs-dismiss': "alert", 'aria-label': "Close"}
+    %span{:'aria-hidden' => "true"}
+  UPDATE (Nov 25, 2026):  The collection is being migrated to another
+  cloud service.  Some files are now back online.
 
 .card.card-body.bg-light
   .row
