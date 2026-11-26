@@ -11,7 +11,7 @@ The SuiteSparse Matrix Collection Website has an open source development
 infrastructure meant to catch bugs early and avoid bugs in production (i.e.
 after deployment).
 
- * **GitHub.** The code for the website is maintained on GitHub at [github.com/ScottKolo/suitesparse-matrix-collection-website](https://github.com/ScottKolo/suitesparse-matrix-collection-website).
+ * **GitHub.** The code for the website is maintained on GitHub at [github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website](https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website).
  * **Semaphore CI.** Semaphore CI (for Continuous Integration) runs the website's test suite after every push to GitHub. This ensures an independent system can run the website and it can function properly.
  * **Heroku (Test).** Once the website test suite passes on Semaphore CI, the website is automatically deployed on Heroku at [suitesparse-test.herokuapp.com](https://suitesparse-test.herokuapp.com). This allows the developer to check that the website is functioning as expected and renders correctly when deployed to an independent system.
  * **Heroku (Production).** When the developer feels confident that the website is ready for deployment, they can deploy manually to the production server on Heroku (suitesparse-collection-website). This production server is accessible through [sparse.tamu.edu](https://sparse.tamu.edu).
@@ -83,7 +83,7 @@ Note that "code" for the website refers to everything within the Rails applicati
 
 If you do not currently have a git repository set up locally, then you will need to clone the repository onto your computer.
 
-`git clone https://github.com/ScottKolo/suitesparse-matrix-collection-website.git`
+`git clone https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website.git`
 
 If you already have a git repository set up locally for the website, simply execute `git pull`.
 

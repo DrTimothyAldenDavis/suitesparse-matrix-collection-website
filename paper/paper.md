@@ -98,7 +98,7 @@ Additionally, new matrices can be submitted to the collection via the web applic
 
 # Deployment
 
-The web application is deployed at [https://sparse.tamu.edu](https://sparse.tamu.edu), but can be viewed, downloaded, and contributed to on [GitHub](https://github.com/ScottKolo/suitesparse-matrix-collection-website).
+The web application is deployed at [https://sparse.tamu.edu](https://sparse.tamu.edu), but can be viewed, downloaded, and contributed to on [GitHub](https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website).
 
 # Acknowledgements
 

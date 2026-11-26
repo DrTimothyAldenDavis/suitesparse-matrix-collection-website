@@ -4,8 +4,8 @@
   "identifier": "SuiteSparse Matrix Collection Website",
   "description": "A web interface for the SuiteSparse Matrix Collection",
   "name": "SuiteSparse Matrix Collection Website",
-  "codeRepository": "https://github.com/ScottKolo/suitesparse-matrix-collection-website",
-  "issueTracker": "https://github.com/ScottKolo/suitesparse-matrix-collection-website/issues",
+  "codeRepository": "https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website",
+  "issueTracker": "https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website/issues",
   "license": "https://spdx.org/licenses/MIT.html",
   "author": [
     {
@@ -88,7 +88,7 @@
   ],
   "contIntegration": "https://semaphoreci.com/scottkolo/ufsmc-web",
   "developmentStatus": "active",
-  "downloadUrl": "https://github.com/ScottKolo/suitesparse-matrix-collection-website/archive/master.zip",
+  "downloadUrl": "https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website/archive/master.zip",
   "keywords": [
     "sparse matrices",
     "data repository",

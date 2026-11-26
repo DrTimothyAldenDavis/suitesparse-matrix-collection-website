@@ -1,6 +1,6 @@
 # SuiteSparse Matrix Collection
 
-[![Build Status](https://scottkolo.semaphoreci.com/badges/suitesparse-matrix-collection-website/branches/master.svg?key=3ab82dff-653a-4c8e-b6fb-14bec4e8b4a9)](https://scottkolo.semaphoreci.com/projects/suitesparse-matrix-collection-website) [![Code Climate](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website/badges/gpa.svg)](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website) [![Test Coverage](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website/badges/coverage.svg)](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website/coverage) [![Issue Count](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website/badges/issue_count.svg)](https://codeclimate.com/github/ScottKolo/suitesparse-matrix-collection-website) [![status](http://joss.theoj.org/papers/965b1c7bba801c85e9341a3db9013ef8/status.svg)](http://joss.theoj.org/papers/965b1c7bba801c85e9341a3db9013ef8)
+[![Build Status](https://scottkolo.semaphoreci.com/badges/suitesparse-matrix-collection-website/branches/master.svg?key=3ab82dff-653a-4c8e-b6fb-14bec4e8b4a9)](https://scottkolo.semaphoreci.com/projects/suitesparse-matrix-collection-website) [![Code Climate](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website/badges/gpa.svg)](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website) [![Test Coverage](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website/badges/coverage.svg)](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website/coverage) [![Issue Count](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website/badges/issue_count.svg)](https://codeclimate.com/github/DrTimothyAldenDavis/suitesparse-matrix-collection-website) [![status](http://joss.theoj.org/papers/965b1c7bba801c85e9341a3db9013ef8/status.svg)](http://joss.theoj.org/papers/965b1c7bba801c85e9341a3db9013ef8)
 
 A web interface for the SuiteSparse Matrix Collection, formerly known as the University of Florida Sparse Matrix Collection. It is currently deployed at [https://sparse.tamu.edu](https://sparse.tamu.edu).
 
@@ -53,7 +53,7 @@ For more information about interfaces to the Collection, see the [Interfaces](ht
 
 ## Bugs and Feature Requests
 
-Find a problem with the website? Report it as an [Issue](https://github.com/ScottKolo/suitesparse-matrix-collection-website/issues), or suggest a fix via a [Pull Request](https://github.com/ScottKolo/suitesparse-matrix-collection-website/pulls).
+Find a problem with the website? Report it as an [Issue](https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website/issues), or suggest a fix via a [Pull Request](https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website/pulls).
 
 ## Building Locally
 
@@ -90,7 +90,7 @@ The application is a standard Ruby on Rails web application, and can be installe
 ```shell
 ruby -v                              # Check that Ruby 2.7.1+ is installed
 pg_isready                           # Check that PostgreSQL database is ready
-git clone https://github.com/ScottKolo/suitesparse-matrix-collection-website.git
+git clone https://github.com/DrTimothyAldenDavis/suitesparse-matrix-collection-website.git
 cd suitesparse-matrix-collection-website
 gem install bundler                  # Dependency manager
 bundle config set without 'development test'
